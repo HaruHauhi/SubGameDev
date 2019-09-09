@@ -1,17 +1,17 @@
-class MainMenu extends Phaser.Scene {
+cclass MainMenu extends Phaser.Scene {
     constructor() {
         super({ key: "MainMenu" });
     }
     preload() {
-        this.load.image('1', '../../images/Birds eye view.png');
-        this.load.image('2', '../../images/Sign.png');
-        this.load.image('3', '../../images/Sign2.png');
-        this.load.image('4', '../../images/Sign3.png');
-        this.load.image('5', '../../images/Sign4.png');
-        this.load.image('6', '../../images/Grass.png');
-        this.load.image('7', '../../images/Ground.png');
-        this.load.image('8', '../../images/Mountain.png');
-        this.load.image('9', '../../images/Sun and Sky.png');
+        this.load.image('1', '../../src/assets/Birds eye view.png');
+        this.load.image('2', '../../src/assets/Sign.png');
+        this.load.image('3', '../../src/assets/Sign2.png');
+        this.load.image('4', '../../src/assets/Sign3.png');
+        this.load.image('5', '../../src/assets/Sign4.png');
+        this.load.image('6', '../../src/assets/Grass.png');
+        this.load.image('7', '../../src/assets/Ground.png');
+        this.load.image('8', '../../src/assets/Mountain.png');
+        this.load.image('9', '../../src/assets/Sun and Sky.png');
         
         
     }
@@ -28,7 +28,7 @@ class MainMenu extends Phaser.Scene {
         this.Play.setInteractive();
 
         
-                    
+            
         this.Play.on("pointerdown", function () {
             this.Play.setTexture("2");
            
