@@ -11,7 +11,7 @@ class GameScene extends Phaser.Scene
     }
     preload ()
     {
-        this.load.image('sky', '../../images/Birds eye view.png');
+        this.load.image('sky', '../../src/assets/Birds eye view.png');
 
     }
     create ()
